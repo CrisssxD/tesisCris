@@ -32,11 +32,11 @@ Route::post('auth/register', ['as' => 'auth.register', 'uses' => 'Auth\AuthContr
 |--------------------------------------------------------------------------
 */
 
-Route::group(['prefix' => 'api', 'namespace' => 'API'], function ()
+/*Route::group(['prefix' => 'api', 'namespace' => 'API'], function ()
 {
 	Route::group(['prefix' => 'v1'], function ()
 	{
         require Config::get('generator.path_api_routes');
 	});
-});
+});*/
 
